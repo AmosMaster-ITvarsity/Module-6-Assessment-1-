@@ -1,0 +1,318 @@
+/* *************************************************************************** */
+
+/*                              MAIN PAGE                                      */
+
+/* *************************************************************************** */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #363636;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+
+/* *************************************************************************** */
+
+/*                              MAIN-MENU PAGE                                 */
+
+/* *************************************************************************** */
+
+#main-menu{
+    background-color: black;
+    height: 100px;
+    
+}
+
+#main-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#main-menu li{
+    display: inline-block;
+}
+
+#main-menu a{
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px;
+    
+    padding: 0 40px;
+    border: none;
+    display: block;
+
+}
+
+#main-menu a:hover{
+    background-color: darkorange;
+    color: black;
+}
+
+
+/* *************************************************************************** */
+
+/*                              HEADER                                         */
+
+/* *************************************************************************** */
+
+
+#header{
+    padding: 60px 0 40px 0;
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+#header h1{
+    letter-spacing: 0.2em;
+    font-size: 44px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#header p{
+    letter-spacing: 0.2em;
+    color: #fff;
+}
+
+/* *************************************************************************** */
+
+/*                              BANNER                                         */
+
+/* *************************************************************************** */
+
+
+#banner{
+    height: 300px;
+}
+
+#banner img{
+    width: 100%;
+    height: 300px;
+}
+
+/* *************************************************************************** */
+
+/*                              BANNER                                         */
+
+/* *************************************************************************** */
+
+
+
+
+#page{
+    min-height: 400px;
+    padding: 20px;
+}
+
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: olive;
+}
+
+/*============================= CONTENT ===================================*/
+
+#content{
+    float: left;
+    width: 70%;
+    
+}
+
+
+/*============================ SIDEBAR =====================================*/
+
+#sidebar{
+    float: right;
+    width: 25%;
+}
+
+/*============================ LIST ========================================*/
+
+ul.styled{
+    list-style-type: none;
+   
+    
+    margin: 0;
+    padding: 0;
+}
+
+ul.styled li{
+    border-top: solid 1px olive;
+    padding: 14px 0px;
+}
+
+/* *************************************************************************** */
+
+/*                              FOOTER                                         */
+
+/* *************************************************************************** */
+
+
+#footer{
+   
+    height: 340px;
+    padding-top: 25px;
+    padding-left: 22px;
+    
+    
+    background-color: darkslategray;
+    
+    clear: both;   
+    
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    
+    padding-right: 30px;
+    
+}
+
+#box2{
+    float: left;
+    width: 30%;
+    
+    padding-right: 20px;
+}
+
+#box3{
+    float: right;
+    width: 30%;
+    
+    padding-left: 30px;
+}
+
+#box3 p{
+    color: white;
+    font-size: 15px;
+}
+
+/* *************************************************************************** */
+
+/*                              COPYRIGHT                                      */
+
+/* *************************************************************************** */
+
+
+
+#copyright{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: black;
+    padding-top: 55px; 
+}
+
+#copyright p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.3em;
+}
+
+
+/* *************************************************************************** */
+
+/*                              CONTACT                                        */
+
+/* *************************************************************************** */
+
+
+.style1 li{
+    list-style-type: none;
+    line-height: 41px;
+    display: inline-block;
+    padding-left: 31px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+ 
+#content1{
+    float: left;
+    width: 70%;
+    
+}
+
+#content1 p{
+    text-align: center;
+    text-transform: uppercase;
+    color: orange;
+    font-size: 20px;
+}
+
+form{
+    width: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.4);  
+    font-size: 19px;
+    
+}
+
+form input{
+    width: 61%;
+    padding: 7px;
+    border-radius: 12px;
+}
+
+button{
+    background: orange;
+    color: white;
+    padding: 4px 13px;
+    border-radius: 12px;
+}
+
+button:hover{
+    background: green;
+    color: white;
+}
+
+
+/* *************************************************************************** */
+
+/*                              GALLERY                                        */
+
+/* *************************************************************************** */
+
+
+#gallery img{
+    width: 120px;
+    margin: 20px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    -o-transition: -o-transform 0.5s ease-in;
+}
+
+#gallery img:hover{
+    -moz-transform: scale(3);
+    -webkit-transform: scale(3);
+    -o-transform: scale(3);
+}
+
+
+
+
+
+
+
+
